@@ -1,0 +1,7 @@
+python Hex.py "a=JAVA;java -classpath agents/Group031/javagent/output MCTSJavagent" -v
+
+python Hex.py "a=JAVA;java -classpath agents/Group031/javagent/output MCTSJavagent" "a=VAJA;java -classpath agents/Group031/javagent/output MCTSJavagent" -v
+
+python Hex.py "a=DEF;python agents/DefaultAgents/NaiveAgent.py" "a=JAVA;java -classpath WRONG" -v
+
+python Hex.py "a=JAVA;java -classpath WRONG" "a=DEF;python agents/DefaultAgents/NaiveAgent.py" -v
